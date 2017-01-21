@@ -1,0 +1,7 @@
+.vs/
+bin/
+Debug/
+Release/
+*.vcxproj.user
+*.opensdf
+*.sdf

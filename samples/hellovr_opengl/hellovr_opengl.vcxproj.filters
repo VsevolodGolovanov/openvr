@@ -21,16 +21,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="hellovr_opengl_main.cpp">
+    <ClCompile Include="hellovr_opengl_main.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\shared\lodepng.cpp">
+    <ClCompile Include="..\shared\lodepng.c">
       <Filter>Shared</Filter>
     </ClCompile>
-    <ClCompile Include="..\shared\Matrices.cpp">
+    <ClCompile Include="..\shared\Matrices.c">
       <Filter>Shared</Filter>
     </ClCompile>
-    <ClCompile Include="..\shared\pathtools.cpp">
+    <ClCompile Include="..\shared\pathtools.c">
       <Filter>Shared</Filter>
     </ClCompile>
   </ItemGroup>
@@ -46,6 +46,9 @@
     </ClInclude>
     <ClInclude Include="..\shared\pathtools.h">
       <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="openvr_capi_fixed.h">
+      <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

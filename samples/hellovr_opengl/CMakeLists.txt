@@ -2,7 +2,8 @@ set(TARGET_NAME hellovr_opengl)
 
 add_executable(${TARGET_NAME}
   ${SHARED_SRC_FILES}
-  hellovr_opengl_main.cpp
+  openvr_capi_fixed.h
+  hellovr_opengl_main.c
 )
 
 target_link_libraries(${TARGET_NAME}
